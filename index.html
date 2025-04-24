@@ -7,8 +7,27 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-    <div>
+    <div class="container" id="container">
       <h1>ROCK PAPER SCISSORS</h1>
+      <div class="score-board">
+        SCORE
+        <p>Computer: <span id="comp-score"></span></p>
+        <p>You: <span id="human-score"></span></p>
+      </div>
+      <div>Computer: 
+        <p id="compchoice"></p>
+      </div>
+      <div>
+        <h1>VS</h1>
+      </div>
+      <div>
+        <p id="humanchoice"></p>
+      </div>
+      <div>
+       <button id="rock-btn">🪨 </button>
+       <button id="paper-btn">📄 </button>
+       <button id="scissors-btn">✂️ </button>
+      </div>
     </div>
 </body>
 <script src="index.js"></script>
